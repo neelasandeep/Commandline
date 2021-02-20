@@ -1,0 +1,23 @@
+GIT
+ version control System
+ 
+ 
+ we can store our code in the git with different versions
+   suppose initialy when developing   V1
+    v2
+	v3...............vn
+	
+	git v1---------key
+	
+	
+	
+	https://github.com/neelasandeep/Testing-with-CMRTC.git
+	
+	
+	echo "# Testing-with-CMRTC" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/neelasandeep/Testing-with-CMRTC.git
+git push -u origin main
